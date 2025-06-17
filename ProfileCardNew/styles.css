@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* width: 60%; */
+  /* justify-content: space-evenly; */
+  /* background-color: black; */
+  border-radius: 2em;
+  margin: 6px;
+  padding: 16px;
+  box-shadow: 0 0 6px red;
+  transition: ease-in-out 400ms;
+}
+
+.profile {
+  height: 7em;
+  width: 7em;
+  padding: 2px;
+  border-radius: 50%;
+  border: 2px solid darkred;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 0 0 4px red;
+  color: goldenrod;
+  padding: 2px;
+}
+
+.designation {
+  font-size: 14px;
+  color: darkgoldenrod;
+}
+
+.medals {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 10px;
+}
+
+.medal {
+  height: 24px;
+  width: 24px;
+  margin: 2px 6px;
+}
+
+.button {
+  width: 72px;
+  padding: 4px;
+  margin: 8px;
+  background: linear-gradient(maroon, #af0000, maroon);
+  border: none;
+  border-radius: 8px;
+  color: gold;
+}
+.button:hover {
+  cursor: pointer;
+  background: linear-gradient(#af0000, maroon);
+}
