@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Toggle Button Animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle"></div>
+    </div>
+    <script>
+      const button = document.querySelector(".container");
+      button.addEventListener("click", () => {
+        document.querySelector(".circle").classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
