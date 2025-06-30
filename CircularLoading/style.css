@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loader {
+  border-radius: 100%;
+  height: 15rem;
+  width: 15rem;
+}
+
+.cover {
+  margin: 10%;
+  background-color:black;
+  z-index: 1;
+  border-radius: 100%;
+  height: 80%;
+  width: 80%;
+}
