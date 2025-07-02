@@ -1,0 +1,27 @@
+body {
+  background-color: #a000a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-slider {
+  background-color: #a000a0;
+  height: 30%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  scroll-snap-type: y mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.card {
+  color: black;
+  margin: 3% 5%;
+  height: 90%;
+  width: 60%;
+  min-width: 240px;
+  background-color: white;
+}
