@@ -1,12 +1,14 @@
 * {
   font-family: monospace;
   transition: 0.5s;
+    color: var(--font);
 }
 body {
   --primary: #ffffff;
   --secondary: #fff0ff;
   --accent: #aa00fa;
   --accent2: #eaaafa;
+  --font: #000000;
 }
 
 body {
