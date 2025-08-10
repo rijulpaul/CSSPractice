@@ -9,11 +9,9 @@ window.addEventListener("scroll", () => {
   }
 });
 
-scroll.onclick = function(){
+scroll.addEventListener("click",()=>{
     window.scrollTo({
         top: 0,
-        behavior: "smooth"
-    });
-}
-
-
+        behavior: "smooth",
+    })
+})
