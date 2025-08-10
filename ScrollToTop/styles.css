@@ -1,0 +1,29 @@
+* {
+    color: black;
+    font-family: monospace;
+}
+.section {
+    display: flex;
+    background-color: skyblue;
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section:nth-child(even) {
+    background-color: papayawhip;
+}
+
+#toTop {
+    display: flex;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 5vh;
+    aspect-ratio: 1/1;
+    background-color: lightpink;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
